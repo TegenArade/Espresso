@@ -1,6 +1,10 @@
-package com.ategan.sampleespresso;
+package com.ategan.sampleespresso.espresso;
 
+import android.support.test.espresso.matcher.ViewMatchers;
 import android.support.test.rule.ActivityTestRule;
+
+import com.ategan.sampleespresso.OthersActivity;
+import com.ategan.sampleespresso.R;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -26,7 +30,7 @@ public class SimpleUITest1 {
     // Verifies the EditText has text "Hello"
     @Test
     public void validateEditText() {
-        onView(withId(R.id.simple_edit_text))
+        onView(ViewMatchers.withId(R.id.simple_edit_text))
                 .perform(typeText("Hello"))
                     .check(matches(withText("Hello")));
     }

@@ -17,6 +17,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+//    sourceSets {
+//        androidTest {
+//            java {
+//                def runAutomation = project.getProperties().get("run_automation")
+//                if (!(runAutomation != null && runAutomation == 'true')) {
+//                    exclude '/com/ategan/sampleespresso/espresso/**'
+//                }
+//            }
+//        }
+//    }
 }
 
 //apply plugin: 'spoon'
@@ -30,6 +41,24 @@ android {
 //
 //    // To grant permissions to Android M >= devices */
 //    grantAllPermissions = true
+//}
+
+
+//apply plugin: "genymotion"
+//genymotion.config {
+//    genymotionPath = "/Applications/Genymotion.app/Contents/MacOS/" //TODO change it if needed
+//    verbose = true
+//    taskLaunch = 'connectedDebugAndroidTest'
+//}
+//
+//genymotion {
+//    devices {
+//        SamsungGalaxyS6_2 {
+//            template "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560"
+//            stopWhenFinish true
+//            deleteWhenFinish true
+//        }
+//    }
 //}
 
 dependencies {

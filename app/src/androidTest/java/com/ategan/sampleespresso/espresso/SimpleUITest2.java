@@ -1,8 +1,12 @@
-package com.ategan.sampleespresso;
+package com.ategan.sampleespresso.espresso;
 
+import android.support.test.espresso.matcher.ViewMatchers;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.test.suitebuilder.annotation.LargeTest;
+
+import com.ategan.sampleespresso.LoginActivity;
+import com.ategan.sampleespresso.R;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -28,7 +32,7 @@ public class SimpleUITest2 {
 
     @Test
     public void testNavigationToWebView() {
-        onView(allOf(withId(R.id.user_name_field), withParent(allOf(withId(R.id.activity_login),
+        onView(allOf(ViewMatchers.withId(R.id.user_name_field), withParent(allOf(withId(R.id.activity_login),
                 withParent(withId(android.R.id.content)))), isDisplayed()))
                 .perform(replaceText("Android"), closeSoftKeyboard());
 

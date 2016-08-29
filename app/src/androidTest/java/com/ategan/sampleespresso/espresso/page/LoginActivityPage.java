@@ -1,4 +1,4 @@
-package com.ategan.sampleespresso.page;
+package com.ategan.sampleespresso.espresso.page;
 
 import com.ategan.sampleespresso.R;
 
