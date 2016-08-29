@@ -1,0 +1,29 @@
+<resources>
+    <string name="welcome_text">Hello World!_fr</string>
+    <string name="app_name">Sample Espresso_fr</string>
+    <string name="title_activity_login">Login_fr</string>
+    <string name="login_message">Please log in to continue._fr</string>
+    <string name="login_btn">Login_fr</string>
+    <string name="username_hint">name_fr</string>
+    <string name="password">password_fr</string>
+    <string name="title_activity_main">Espresso_fr</string>
+    <string name="navigation_drawer_open">Open navigation drawer_fr</string>
+    <string name="navigation_drawer_close">Close navigation drawer_fr</string>
+    <string name="welcome_msg">Welcome %s!_fr</string>
+    <string name="action_settings">Settings_fr</string>
+    <string name="guest">Guest_fr</string>
+    <string name="guest_btn">Continue as Guest_fr</string>
+    <string name="login_failed_message">User valid username or password. If you are not a user continue as guest._fr</string>
+    <string name="title_activity_web_view">WebView_fr</string>
+    <string name="title_activity_others">Others_fr</string>
+    <string name="web_url">http://www.example.com</string>
+    <string name="switch_label">Switch._fr</string>
+    <string name="radio_button_label">Radio Button_fr</string>
+    <string name="switch_status_text">Switch is %s._fr</string>
+    <string name="radio_button_status_text">Radio button is %s._fr</string>
+    <string name="on">on_fr</string>
+    <string name="off">off_fr</string>
+    <string name="edittext">edittext_fr</string>
+    <string name="nav_web_view_title">Web view_fr</string>
+    <string name="nav_others_title">Others_fr</string>
+</resources>
