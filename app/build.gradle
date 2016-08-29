@@ -19,18 +19,18 @@ android {
     }
 }
 
-apply plugin: 'spoon'
-
-spoon {
-    // for debug output
-    debug = true
-
-    // To execute the tests device by device */
-    sequential = false
-
-    // To grant permissions to Android M >= devices */
-    grantAllPermissions = true
-}
+//apply plugin: 'spoon'
+//
+//spoon {
+//    // for debug output
+//    debug = true
+//
+//    // To execute the tests device by device */
+//    sequential = false
+//
+//    // To grant permissions to Android M >= devices */
+//    grantAllPermissions = true
+//}
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
