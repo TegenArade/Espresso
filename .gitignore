@@ -5,6 +5,7 @@
 /.idea/libraries
 .DS_Store
 /build
+/.idea
 /app/build
 /captures
 .externalNativeBuild
