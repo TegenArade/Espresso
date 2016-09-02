@@ -54,7 +54,7 @@ android {
 //genymotion {
 //    devices {
 //        SamsungGalaxyS6_2 {
-//            template "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560"
+//            template "Google Nexus 5X - 6.0.0 - API 23 - 1080x1920"
 //            stopWhenFinish true
 //            deleteWhenFinish true
 //        }
